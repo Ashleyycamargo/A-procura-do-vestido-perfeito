@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca do vestido perfeito</title>
+</head>
+<body>
+<main>
+    <div class="passo ativo" id="passo-0">
+        <img src="img/cenario-passo0.png" alt="criando um jogo">
+        <p>Um dia desses, resolvi criar um jogo chamado “A procura do vestido perfeito”, seguindo o passo a passo de escolhas para encontrá-lo. Vamos segui-los!</p>
+        <button class="btn-próximo" data-proximo="1">Califórnia</button>
+        <button class="btn-próximo" data-proximo="2">Dubai</button>
+    </div>
+    <div class="passo" id="passo-1">
+        <img src="img/cenariohouston-passo1.png" alt="começando uma jornada">
+        <p>Sua jornada começa em califórnia, você está passeando pelo chão da fama e acha um pedaço de tule que veio do vestido misterioso e você começa a pesquisar da onde poderia ter vindo aquele pedaço. Lembrando que teve um desfile e uma das modelos era a Beyonce, a Ariana Grande e a Ava Max que estavam usando roupas de tule!</p>
+        <button class="btn-próximo" data-proximo="3">Procurar pistas em Houston, Cidade do Texas, próximo à Beyoncé</button>
+        <button class="btn-próximo" data-proximo="0">Desistir e voltar pra casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="img/cenarioburjkhalifa-passo2.png" alt="começando uma jornada">
+            <p>Sua jornada começa em Dubai, você está hospedado no hotel Burj Khalifa e encontra um microfone que foi usado na abertura do desfile por uma cantora, você começa a pesquisar se aconteceu algum evento próximo a data do desfile e você encontra um show feito pela Ava Max dias antes do desfile. Lembrando que ela também estava no desfile!</p>
+            <button class="btn-próximo" data-proximo="4">Procurar pistas em Los Angeles, Cidade de Califórnia, próximo á Ava Max</button>
+            <button class="btn-próximo" data-proximo="0">Desistir e voltar pra casa</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Chegando lá, fomos falar com a Beyoncé para sabermos sobre o vestido de tule. A diva Beyoncé diz ter usado um vestido de tule, mas não era dela e pediu para que falássemos com a estilista Elie Saab, que mora em Paris!</p>
+            <button class="btn-próximo" data-proximo="5">Ir para Paris conversar com a Elie Saab</button>
+            <button class="btn-próximo" data-proximo="0">Desistir e voltar pra casa</button>
+        </div>  
+        <div class="passo" id="passo-4">
+            <p>Chegando lá, fomos falar com a Ava Max, diz a diva que usou um vestido de tule, mas o pedaço de tecido não era dela e ela sabe de quem é. Ela afirmou ter visto uma cantora usando um vestido de tule cinza no desfile e que ela está em uma viagem em Paris, deixando-a anonimar.</p>
+            <button class="btn-próximo" data-proximo="6">Procurar pistas em Los Angeles, Cidade de Califórnia, próximo á Ava Max</button>
+            <button class="btn-próximo" data-proximo="0">Desistir e voltar pra casa</button>
+        </div>   
+        <div class="passo" id="passo-5">
+            <p>Chegamos a Paris e conversamos com a Elie Saab, a estilista conta que criou um vestido para uma cantora famosa que está fazendo uma turnê em Paris.</p>
+            <button class="btn-próximo" data-proximo="7">Pesquisar sobre a cantora</button>
+            <button class="btn-próximo" data-proximo="0">Desistir e voltar pra casa</button>
+        </div>   
+        <div class="passo" id="passo-6">
+            <p>Pesquisamos e vimos que a cantora que está em Paris é a Ariana Grande realizando sua turnê.</p>
+            <button class="btn-próximo" data-proximo="7">Ir conversar com a Ariana Grande</button>
+            <button class="btn-próximo" data-proximo="0">Desistir e voltar pra casa</button>
+        </div>   
+        <div class="passo" id="passo-7">
+            <img src="img/cenarioeiffeltowersparkle-passo15.png" alt="destino final">;
+            <p>Pesquisamos e vimos que a Ariana Grande está em uma turnê e fomos atrás dela para conversarmos sobre o vestido.</p>
+            <button class="btn-próximo" data-proximo="8">Ir conversar com a Ariana Grande</button>
+            <button class="btn-próximo" data-proximo="0">Desistir e voltar pra casa</button>
+        </div>  
+        <div class="passo" id="passo-8">
+            <img src="img/cenariovestido-passo8.png.png" alt="destino final">;
+            <p>Conversamos com a diva e ela disse que o vestido era dela e criou essa caça ao tesouro para dar o vestido de tule cinza que foi usado durante a premiação do Grammy para o primeiro fã que concluísse todos os passos para chegar aqui!</p>
+            <button class="btn-próximo" data-proximo="0">Pegar o presente</button>
+            <button class="btn-próximo" data-proximo="0">Desistir e voltar pra casa</button>
+        </div>   
+</main> 
+<script src="script.js"></script>
+
+
+    
+</body>
+</html>
